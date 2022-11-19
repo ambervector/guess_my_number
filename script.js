@@ -50,7 +50,7 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (guess !== secretNumber) {
     // when the user's guess is not equal to the secret number
     guess > secretNumber
-      ? setMessageContent("Try entering a alower number!")
+      ? setMessageContent("Try entering a lower number!")
       : setMessageContent("Try entering a higher number!");
     if (gameScore > 1) {
       gameScore--;
